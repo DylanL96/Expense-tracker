@@ -6,7 +6,7 @@ const Display = (props) => {
   )
 }
 
-const Add = (props) => {
+const AddExpense = (props) => {
   return (
     <form onSubmit={props.handleClick}>
       <input value={props.newNote} onChange={props.handleChange}/>
@@ -33,7 +33,7 @@ const App = () => {
   return (
     <div>
       <Display value={value}/>
-      <Add handleClick={handleClick} handleChange={handleChange}/>
+      <AddExpense handleClick={handleClick} handleChange={handleChange}/>
     </div>
     
   )

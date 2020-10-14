@@ -1,0 +1,75 @@
+h1{
+  color: black;
+}
+
+#total{
+  position: fixed;
+  left: 40%;
+}
+
+#InputForm{
+  position: absolute;
+  left: 50px;
+  top: 350px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#ExpenseForm{
+  position: absolute;
+  left: 50px;
+  top: 60px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#displayIncome{
+  position: relative;
+  left: 150px;
+}
+
+#displayExpense{
+  position: relative;
+  left: 150px;
+}
+
+tbody{
+  display: block;
+  height: 200px;
+  overflow: auto;
+}
+
+td{
+  width: 700px;
+}
+
+th{
+  width: 370px;
+}
+
+thead{
+  display: block;
+  width: 700px;
+}
+
+#incomeTable{
+  width: 500px;
+  position: absolute;
+  right: 25.5%;
+  top: 40%;
+  text-align: center;
+}
+
+#expenseTable{
+  width: 700px;
+  position: absolute;
+  right: 15%;
+  top: 7%;
+  text-align: center;
+}
+
+.labels{
+  font-weight: bold;
+}
